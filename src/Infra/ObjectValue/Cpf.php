@@ -6,11 +6,16 @@ use Claudio\LeaningAboutCleanArchitecture\Infra\Validator\ValidatorFields;
 
 class Cpf
 {
-    public readonly string $cpf;
+    private readonly string $cpf;
 
     public function __construct(string $cpf)
     {
         ValidatorFields::validateCpf($cpf);
         $this->cpf = $cpf;
+    }
+
+    public function __toString(): string
+    {
+        return $this->cpf;
     }
 }

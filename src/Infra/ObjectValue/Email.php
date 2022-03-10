@@ -6,11 +6,16 @@ use Claudio\LeaningAboutCleanArchitecture\Infra\Validator\ValidatorFields;
 
 class Email
 {
-    public readonly string $email;
+    private readonly string $email;
 
     public function __construct(string $email)
     {
         ValidatorFields::validateEmail($email);
         $this->email = $email;
+    }
+
+    public function __toString(): string
+    {
+        return $this->email;
     }
 }
