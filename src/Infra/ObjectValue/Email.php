@@ -4,7 +4,7 @@ namespace Claudio\LeaningAboutCleanArchitecture\Infra\ObjectValue;
 
 use Claudio\LeaningAboutCleanArchitecture\Infra\Validator\ValidatorFields;
 
-class Email
+class Email implements \Stringable
 {
     private readonly string $email;
 
