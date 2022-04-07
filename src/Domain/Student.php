@@ -17,4 +17,9 @@ class Student
     ) {
         $this->phoneCollection = PhoneCollection::makeEmpty();
     }
+
+    public function isEqualAnotherStudent(Student $anotherStudent): bool
+    {
+        return $anotherStudent->cpf === $this->cpf;
+    }
 }
