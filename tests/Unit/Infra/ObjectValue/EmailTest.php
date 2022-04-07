@@ -2,7 +2,7 @@
 
 namespace Infra\ObjectValue;
 
-use Claudio\LeaningAboutCleanArchitecture\Infra\ObjectValue\Email;
+use Claudio\LeaningAboutCleanArchitecture\Domain\ObjectValue\Email;
 use PHPUnit\Framework\TestCase;
 
 class EmailTest extends TestCase

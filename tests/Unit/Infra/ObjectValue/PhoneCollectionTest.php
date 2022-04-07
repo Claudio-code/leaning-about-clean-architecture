@@ -2,8 +2,8 @@
 
 namespace Unit\Infra\ObjectValue;
 
-use Claudio\LeaningAboutCleanArchitecture\Infra\ObjectValue\Phone;
-use Claudio\LeaningAboutCleanArchitecture\Infra\ObjectValue\PhoneCollection;
+use Claudio\LeaningAboutCleanArchitecture\Domain\ObjectValue\Phone;
+use Claudio\LeaningAboutCleanArchitecture\Domain\ObjectValue\PhoneCollection;
 use PHPUnit\Framework\TestCase;
 
 class PhoneCollectionTest extends TestCase

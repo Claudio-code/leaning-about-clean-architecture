@@ -2,9 +2,9 @@
 
 namespace Claudio\LeaningAboutCleanArchitecture\Domain;
 
-use Claudio\LeaningAboutCleanArchitecture\Infra\ObjectValue\Cpf;
-use Claudio\LeaningAboutCleanArchitecture\Infra\ObjectValue\Email;
-use Claudio\LeaningAboutCleanArchitecture\Infra\ObjectValue\PhoneCollection;
+use Claudio\LeaningAboutCleanArchitecture\Domain\ObjectValue\Cpf;
+use Claudio\LeaningAboutCleanArchitecture\Domain\ObjectValue\Email;
+use Claudio\LeaningAboutCleanArchitecture\Domain\ObjectValue\PhoneCollection;
 
 class Student
 {

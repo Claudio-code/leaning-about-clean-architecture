@@ -1,6 +1,6 @@
 <?php
 
-namespace Claudio\LeaningAboutCleanArchitecture\Infra\ObjectValue;
+namespace Claudio\LeaningAboutCleanArchitecture\Domain\ObjectValue;
 
 use Doctrine\Common\Collections\ArrayCollection;
 

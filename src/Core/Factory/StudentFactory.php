@@ -2,10 +2,10 @@
 
 namespace Claudio\LeaningAboutCleanArchitecture\Core\Factory;
 
+use Claudio\LeaningAboutCleanArchitecture\Domain\ObjectValue\Cpf;
+use Claudio\LeaningAboutCleanArchitecture\Domain\ObjectValue\Email;
+use Claudio\LeaningAboutCleanArchitecture\Domain\ObjectValue\Phone;
 use Claudio\LeaningAboutCleanArchitecture\Domain\Student;
-use Claudio\LeaningAboutCleanArchitecture\Infra\ObjectValue\Cpf;
-use Claudio\LeaningAboutCleanArchitecture\Infra\ObjectValue\Email;
-use Claudio\LeaningAboutCleanArchitecture\Infra\ObjectValue\Phone;
 
 class StudentFactory
 {

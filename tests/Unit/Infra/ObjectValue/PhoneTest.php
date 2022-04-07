@@ -2,7 +2,7 @@
 
 namespace Unit\Infra\ObjectValue;
 
-use Claudio\LeaningAboutCleanArchitecture\Infra\ObjectValue\Phone;
+use Claudio\LeaningAboutCleanArchitecture\Domain\ObjectValue\Phone;
 use PHPUnit\Framework\TestCase;
 
 class PhoneTest extends TestCase

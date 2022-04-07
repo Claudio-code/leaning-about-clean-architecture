@@ -2,9 +2,9 @@
 
 namespace Unit\Infra\ObjectValue;
 
-use Claudio\LeaningAboutCleanArchitecture\Infra\ObjectValue\Cpf;
-use PHPUnit\Framework\TestCase;
+use Claudio\LeaningAboutCleanArchitecture\Domain\ObjectValue\Cpf;
 use InvalidArgumentException;
+use PHPUnit\Framework\TestCase;
 
 class CpfTest extends TestCase
 {
